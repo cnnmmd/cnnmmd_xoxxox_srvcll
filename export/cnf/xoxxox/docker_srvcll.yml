@@ -1,0 +1,9 @@
+networks:
+  default:
+    name: xoxxox_netmid
+    external: true
+services:
+  xoxxox_srvcll:
+    image: xoxxox/envcll:001
+    container_name: xoxxox_srvcll
+    command: "sleep infinity"
